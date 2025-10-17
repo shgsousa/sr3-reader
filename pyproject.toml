@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "sr3_reader"
+version = "0.1.0"
+description = "Python routines for reading of Computer Modelling Group Ltd. (CMG) binary output files. Original work from Nikolai Andrianov with python project and refactoring by Sergio Sousa."
+authors = ["Nikolai Andrianov" and "Sergio Sousa"]
+readme = "README.md"
+license = "MIT"
+packages = [
+    { include = "sr3_reader", from = "src" }
+]
+
+[tool.poetry.dependencies]
+python = ">=3.8"
+numpy = ">=1.21.0"
+pandas = ">=1.3.0"
+h5py = ">=3.3.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
