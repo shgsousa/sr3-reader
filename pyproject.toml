@@ -2,7 +2,7 @@
 name = "sr3_reader"
 version = "0.1.0"
 description = "Python routines for reading of Computer Modelling Group Ltd. (CMG) binary output files. Original work from Nikolai Andrianov with python project and refactoring by Sergio Sousa."
-authors = ["Nikolai Andrianov" and "Sergio Sousa"]
+authors = ["Nikolai Andrianov", "Sergio Sousa"]
 readme = "README.md"
 license = "MIT"
 packages = [
